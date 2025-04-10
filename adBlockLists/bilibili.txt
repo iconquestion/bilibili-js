@@ -1,18 +1,19 @@
 [Adblock Plus 2.0]
-! Version: 20240801
+! Version: 20250410
 ! Title: bilibili
 
-! 禁止直播p2p上行
-tracker.chat.bilibili.com
-live-p2p-*.chat.bilibili.com
-live-tracker-*.chat.bilibili.com
-
 ! 阻止用户操作数据上传
-api.bilibili.com/x/polymer/spy-family/report
-api.bilibili.com/x/v2/history/report
-s1.hdslb.com/bfs/seed/log/report/log-reporter.js
-mall.bilibili.com/mall-dayu/h5/monitor
+||api.bilibili.com/x/polymer/spy-family/report
+||api.bilibili.com/x/v2/history/report
+||s1.hdslb.com/bfs/seed/log/report/log-reporter.js
+||mall.bilibili.com/mall-dayu/h5/monitor
+||s1.hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js
+||s1.hdslb.com/bfs/seed/jinkela/short/user-fingerprint/bili-user-fingerprint.min.js
+||s1.hdslb.com/bfs/seed/jinkela/short/reporter-pb/index.js
 
 ! 阻止live.bilibili.com直播主页自动播放视频
-s1.hdslb.com/bfs/live-pkg/live-web-player/home-player.min.js
-s1.hdslb.com/bfs/blive-engineer/live-web-player/home-player.min.js
+||s1.hdslb.com/bfs/live-pkg/live-web-player/home-player.min.js
+||s1.hdslb.com/bfs/blive-engineer/live-web-player/home-player.min.js
+
+! 阻止bilibili搜索框推荐热词
+||api.bilibili.com/x/web-interface/wbi/search/default
