@@ -22,17 +22,17 @@ https://iconquestion.github.io/BilibiliJS/
 
 ## 脚本列表
 
-| 文件 | 关键词 | 描述 |
-| --- | --- | --- |
-| `bilibiliAutoDarkMode.js` | b站 bilibili 自动夜间模式 深色 浅色 系统主题 | 让 `*.bilibili.com` 跟随系统深浅色自动切换。脚本代码很简洁，核心是复用 B 站 Header 内部原生的主题切换调用，因此会沿用站内自己的 CSS、cookie、`bili_dark` class 和事件广播逻辑。 |
-| `bilibiliGetExp.js` | b站 bilibili 刷经验 | 获得 B 站观看视频经验、客户端分享视频经验，自动完成每日任务。 |
-| `bilibiliGetExpV2.js` | b站 bilibili 刷经验 | `bilibiliGetExp.js` 的第二版，同样用于自动完成每日经验任务。 |
-| `adBlockLists/bilibili.txt` | b站 bilibili 直播 p2p 阻止 | 阻止 B 站直播 P2P 上传功能，节省上传带宽和流量消耗。 |
-| `bilibiliAutoGetRedpocket.js` | b站 bilibili 直播 抢红包 | 自动参与 B 站直播间抢红包活动。 |
-| `bilibiliClearNotifications.js` | b站 bilibili 消息 已读 小红点 | 清除 B 站消息小红点。随手做的，类似功能的脚本网上也有很多，不打算再更新。目前只能把“我的消息”里的前 20 条标记已读。为什么不能做成“一键已读所有消息”呢？很简单，我没有那么多未读消息，没办法测试 -_-|| |
-| `bilibiliLiveSign.js` | b站 bilibili 直播 签到 | B 站直播自动签到。代码极其简单，网上类似甚多，同样不做更新。 |
-| `bilibiliClearDynamics.js` | b站 bilibili 动态 清除 删除 | 筛选、删除 B 站特定条件的动态，方便一键清空无用抽奖动态。具体使用方法可参见脚本内注释。 |
-| `biliDynPageDarkMode.css` | b站 bilibili 动态页面 黑色 暗黑 深色 主题 | B 站动态页面深色主题样式。 |
+| 文件 | 描述 |
+| --- | --- |
+| `bilibiliAutoDarkMode.js` | 让 `*.bilibili.com` 跟随系统深浅色自动切换。脚本代码很简洁，核心是复用 B 站 Header 内部原生的主题切换调用，因此会沿用站内自己的 CSS、cookie、`bili_dark` class 和事件广播逻辑。 |
+| `bilibiliGetExp.js` | 获得 B 站观看视频经验、客户端分享视频经验，自动完成每日任务。 |
+| `bilibiliGetExpV2.js` | `bilibiliGetExp.js` 的第二版，同样用于自动完成每日经验任务。 |
+| `adBlockLists/bilibili.txt` | 阻止 B 站直播 P2P 上传功能，节省上传带宽和流量消耗。 |
+| `bilibiliAutoGetRedpocket.js` | 自动参与 B 站直播间抢红包活动。 |
+| `bilibiliClearNotifications.js` | 清除 B 站消息小红点。随手做的，类似功能的脚本网上也有很多，不打算再更新。目前只能把“我的消息”里的前 20 条标记已读。为什么不能做成“一键已读所有消息”呢？很简单，我没有那么多未读消息，没办法测试 -_-|| |
+| `bilibiliLiveSign.js` | B 站直播自动签到。代码极其简单，网上类似甚多，同样不做更新。 |
+| `bilibiliClearDynamics.js` | 筛选、删除 B 站特定条件的动态，方便一键清空无用抽奖动态。具体使用方法可参见脚本内注释。 |
+| `biliDynPageDarkMode.css` | B 站动态页面深色主题样式。 |
 
 ## 示例图
 
