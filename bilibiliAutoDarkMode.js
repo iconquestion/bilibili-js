@@ -4,6 +4,7 @@
 // @author       iconquestion
 // @version      1.0
 // @description  让 *.bilibili.com 跟随系统深浅色
+// @license      MIT
 // @match        https://*.bilibili.com/*
 // @run-at       document-idle
 // @grant        none
